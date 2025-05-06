@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1 class="logo">My Blog</h1>
+        <nav class="main-nav">
+          <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h2>Welcome to My Blog</h2>
+        <p>Discover amazing content about technology, travel, and more.</p>
+        <button class="cta-button" id="exploreBtn">Explore Now</button>
+      </section>
+
+      <section class="featured-posts">
+        <h2>Featured Posts</h2>
+        <div class="posts-grid">
+          <article class="post-card">
+            <img
+              src="images/web.jpg"
+              alt="Web Development"
+              class="post-image"
+            />
+            <div class="post-content">
+              <h3>Getting Started with Web Development</h3>
+              <p class="post-meta">
+                Published on <time datetime="2025-05-05">May 05, 2025</time>
+              </p>
+              <p>
+                Learn the fundamentals of HTML, CSS, and JavaScript to start
+                your web development journey.
+              </p>
+              <a href="post.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img src="images/travel.jpg" alt="Travel" class="post-image" />
+            <div class="post-content">
+              <h3>Top Travel Destinations for 2023</h3>
+              <p class="post-meta">
+                Published on <time datetime="2025-04-28">April 28, 2025</time>
+              </p>
+              <p>
+                Discover the most amazing places to visit this year and start
+                planning your next adventure.
+              </p>
+              <a href="post.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img src="images/ai.jpg" alt="Technology" class="post-image" />
+            <div class="post-content">
+              <h3>The Future of AI Technology</h3>
+              <p class="post-meta">
+                Published on <time datetime="2025-04-10">April 10, 2025</time>
+              </p>
+              <p>
+                Explore how artificial intelligence is shaping our future and
+                what to expect in the coming years.
+              </p>
+              <a href="post.html" class="read-more">Read More</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <form id="newsletterForm">
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </aside>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
