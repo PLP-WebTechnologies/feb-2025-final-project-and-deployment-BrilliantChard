@@ -3,6 +3,7 @@
 A fully functional, responsive **Blog Website** built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates best practices in web development, including semantic HTML, responsive design, and interactive features.
 
 The site link is: https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-BrilliantChard/
+
 ---
 
 
