@@ -20,7 +20,7 @@ A fully functional, responsive **Blog Website** built using **HTML**, **CSS**, a
 
 - **HTML5**
 - **CSS3** (with CSS Variables)
-- **JavaScript (ES6)**
+- **JavaScript**
 - **Font Awesome**
 
 ---
@@ -40,8 +40,8 @@ To deploy the blog on **GitHub Pages**:
 
 ### 📝 Notes:
 
-- Ensure your main file is named **index.html**.
-- Use **relative paths** in your code (e.g., `css/style.css` instead of `/css/style.css`).
+- Ensuring the main file is named **index.html**.
+- Use **relative paths** in the code
 - GitHub Pages may take a few minutes to reflect changes.
 
 ---
@@ -50,4 +50,4 @@ To deploy the blog on **GitHub Pages**:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<username>/<repository-name>.git
+   git clone https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-BrilliantChard.git
